@@ -1,7 +1,7 @@
 import "./projects.scss"
 import Porfoliolist from "../portfoliolist/porfoliolist";
 import {useState,useEffect} from "react";
-import {featuredPortfolio,systemPortfolio,dummyPortfolio,webPortfolio} from "../../data.js" 
+import {featuredPortfolio,systemPortfolio,webPortfolio} from "../../data.js" 
 
 export default function Projects() {
     const [selected, setSelected] = useState("featured");
