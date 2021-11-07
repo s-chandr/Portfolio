@@ -19,10 +19,7 @@ export default function Projects() {
           id: "system",
           title: "System App",
         },
-        {
-            id: "dmtb",
-            title: "Dymmy Tab",
-        },
+        
         
       ];
       useEffect(()=> {
@@ -32,9 +29,6 @@ export default function Projects() {
                 break;
             case "system":
                 setData(systemPortfolio);
-                break;
-            case "dmtb":
-                setData(dummyPortfolio);
                 break;
             case "web":
                 setData(webPortfolio);
